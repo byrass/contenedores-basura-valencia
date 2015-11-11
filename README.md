@@ -17,7 +17,7 @@ Está en formato csv, entre otros. Link: http://gobiernoabierto.valencia.es/en/d
 
 El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y el segundo los analiza.
 
-################--help(parse())--################
+#parse()
 	Help on function parse in module __main__:
 
 	parse(inFile='res_contenedor.CSV')
@@ -37,7 +37,7 @@ El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y 
 			dato[9] = tipovia
 			dato[10] = calleempre
 
-################--help(Dato())--################
+#Dato()
 	Help on class Dato in module __main__:
 
 	class Dato(__builtin__.object)
