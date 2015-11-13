@@ -89,6 +89,11 @@ class Dato(object):
         Devuelve una lista con los datos
         '''
         return self.datos
+    def getDato(self, dato):
+        '''
+        Devuelve el dato especificado
+        '''
+        return self.getDict()[dato]
     def getDatosUnicos(self):
         '''
         Devuelve una lista con los datos únicos
