@@ -63,7 +63,8 @@ El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y 
 	 |  
 	 |  getDatos(self)
 	 |      Devuelve una lista con los datos
-	 |  getDato(self)
+	 |
+	 |  getDato(self, dato)
 	 |      Devuelve el dato especificado
 	 |  
 	 |  getDatosUnicos(self)
