@@ -16,7 +16,7 @@ Como parte de la iniciativa de Transparencia, Datos Abiertos y Participación ci
 Está en formato csv, entre otros. Link: http://gobiernoabierto.valencia.es/en/dataset/?id=contenedores-residuos-solidos
 
 El modulo consta de dos partes, parse() y Dato(). El primero lee los datos, y el segundo los analiza.
-A partir de este, con analisis.py se han analizado los datos, y se ha creado un csv para cada dato individual.
+A partir de este, con analisis.py se han analizado los datos, y se ha creado un csv para cada dato individual. Este contiene una lista de datos únicos y el numero de estos.
 
 #parse()
 	Help on function parse in module __main__:
