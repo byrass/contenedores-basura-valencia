@@ -15,7 +15,8 @@ Como parte de la iniciativa de Transparencia, Datos Abiertos y Participación ci
 	calleempre: Descripcion de la calle donde se encuentra el contenedor.
 Está en formato csv, entre otros. Link: http://gobiernoabierto.valencia.es/en/dataset/?id=contenedores-residuos-solidos
 
-El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y el segundo los analiza.
+El modulo consta de dos partes, parse() y Dato(). El primero lee los datos, y el segundo los analiza.
+A partir de este, con analisis.py se han analizado los datos, y se ha creado un csv para cada dato individual.
 
 #parse()
 	Help on function parse in module __main__:
@@ -61,11 +62,11 @@ El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y 
 	 |  
 	 |  __str__(self)
 	 |  
-	 |  getDatos(self)
-	 |      Devuelve una lista con los datos
-	 |
 	 |  getDato(self, dato)
 	 |      Devuelve el dato especificado
+	 |  
+	 |  getDatos(self)
+	 |      Devuelve una lista con los datos
 	 |  
 	 |  getDatosUnicos(self)
 	 |      Devuelve una lista con los datos únicos
@@ -91,6 +92,9 @@ El programa consta de dos partes, parse() y Dato(). El primero lee los datos, y 
 	 |  
 	 |  getMin(self)
 	 |      Devuelve el valor o los valores minimos y su llaves
+	 |  
+	 |  getModo(self)
+	 |      Devuelve el nombre del indice que se esta analizando
 	 |  
 	 |  graphPie(self, figure_number)
 	 |      Dibuja un grafico circular, debe darsele el número de la figura para evitar colisiones
