@@ -84,6 +84,11 @@ class Dato(object):
         self.datos.sort()
         self.datos_unicos.sort()
         print 'Listado completado.'
+    def getModo(self):
+        '''
+        Devuelve el nombre del indice que se esta analizando
+        '''
+        return self.mode[0][self.index]
     def getDatos(self):
         '''
         Devuelve una lista con los datos
