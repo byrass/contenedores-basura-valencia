@@ -5,7 +5,7 @@ Python realizado en 2.7.9, requiere del modulo csv
 '''
 import csv, pylab
 
-def parse(inFile = 'res_contenedor.CSV'):
+def parse(inFile = '.\Datos Originales\\res_contenedor.CSV'):
     ''' Dado el path del archivo csv (por ejemplo: 'C:\Windows\\archivo')
     devolvera una lista de los datos,
     estos siendo:
